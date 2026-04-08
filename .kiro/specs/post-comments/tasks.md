@@ -28,7 +28,7 @@ Implement a comment system for the micro-blogging app. The plan follows a backen
     - Return 200 on success, 403/404/500 with descriptive error messages
     - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
-  - [ ] 1.4 Register Lambda functions and API routes in CDK stack
+  - [x] 1.4 Register Lambda functions and API routes in CDK stack
     - In `infrastructure/lib/app-stack.ts`, add three `NodejsFunction` constructs (`CreateCommentFunction`, `GetCommentsFunction`, `DeleteCommentFunction`) with environment variables `COMMENTS_TABLE`, `POSTS_TABLE`, `USERS_TABLE`
     - Grant DynamoDB permissions: read/write on Comments and Posts, read on Users
     - Add API Gateway routes under the existing `{postId}` resource: `comments` resource with GET and POST methods, `comments/{commentId}` resource with DELETE method
