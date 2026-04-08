@@ -14,7 +14,7 @@ Implement a comment system for the micro-blogging app. The plan follows a backen
     - Return 201 with the created comment, or 400/404/500 with descriptive error messages
     - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6_
 
-  - [ ] 1.2 Create `getComments.js` Lambda handler
+  - [x] 1.2 Create `getComments.js` Lambda handler
     - Create `backend/src/functions/comments/getComments.js`
     - Query GSI `postId-index` with `ScanIndexForward: true` for chronological order
     - Support pagination: `limit` query param (default 20), `nextToken` encoded/decoded like `getPosts.js`
