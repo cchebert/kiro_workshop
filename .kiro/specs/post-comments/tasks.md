@@ -34,7 +34,7 @@ Implement a comment system for the micro-blogging app. The plan follows a backen
     - Add API Gateway routes under the existing `{postId}` resource: `comments` resource with GET and POST methods, `comments/{commentId}` resource with DELETE method
     - _Requirements: 6.1, 6.2, 6.3, 6.4, 6.5, 6.6_
 
-- [ ] 2. Checkpoint — Verify backend compiles and infrastructure is valid
+- [x] 2. Checkpoint — Verify backend compiles and infrastructure is valid
   - Ensure all backend files have no syntax errors and the CDK stack compiles. Ask the user if questions arise.
 
 - [ ] 3. Frontend — API layer, types, and i18n
