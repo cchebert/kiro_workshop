@@ -22,7 +22,7 @@ Implement a comment system for the micro-blogging app. The plan follows a backen
     - Return 200 with `{ comments, nextToken }`
     - _Requirements: 2.1, 2.2, 2.3, 2.4_
 
-  - [ ] 1.3 Create `deleteComment.js` Lambda handler
+  - [x] 1.3 Create `deleteComment.js` Lambda handler
     - Create `backend/src/functions/comments/deleteComment.js`
     - Verify comment exists via `GetCommand`, check `userId` matches authenticated user (403 if not), delete via `DeleteCommand`, decrement `commentsCount` atomically (minimum 0)
     - Return 200 on success, 403/404/500 with descriptive error messages
